@@ -1,7 +1,7 @@
 # Store Analysis System
 
 ## Project Overview
-A Python-based system that helps businesses analyze sales, track customer behavior, identify best-selling and unsold categories, and generate detailed reports for better decision-making.
+The Store Analysis System is a simple yet powerful tool designed to help store owners understand their sales. It analyzes transaction data to show sales trends, customer buying habits, and product performance. With this system, businesses can make smarter decisions to improve inventory, increase sales, and better serve customers. The system provides clear reports on sales performance, customer demographics, and the best and worst-selling products. It also includes charts to make trends easier to see. Users can also manage their records by adding, updating, or deleting transactions.
 
 ## Steps to Run the Code
 1. Clone the repository:
@@ -39,10 +39,10 @@ A Python-based system that helps businesses analyze sales, track customer behavi
 [GitHub Repository](https://github.com/RiRith69/Store-System-Analysis.git)
 
 ## Contributors
+- **Touch Lyheng** - Modify System
 - **Chren Sophearith** - Customer Behavior Analysis
 - **Techleng Tang** - Best Selling & Unsold Categories
 - **Rith Phearinsathya** - Total Sales & Reports
-- **Touch Lyheng** - Modify System
 
 ## License
 This project is licensed under the MIT License.
