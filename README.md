@@ -36,7 +36,7 @@ A Python-based system that helps businesses analyze sales, track customer behavi
 - **General Reports**: Generates monthly, yearly, and total sales reports with customer insights.
 
 ## GitHub Link
-[GitHub Repository](https://github.com/your-username/Store-Analysis-System)
+[GitHub Repository](https://github.com/RiRith69/Store-System-Analysis.git)
 
 ## Contributors
 - **Chren Sophearith** - Customer Behavior Analysis
