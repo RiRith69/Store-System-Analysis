@@ -52,7 +52,7 @@ class CustomerBehavior(StoreAnalysisSystem):
     def gender18to31(self):
         compareAge = self.df[(self.df['Age'] >= 18) & (self.df['Age'] <= 31)]
         total_customer = compareAge['Gender'].count()
-        #We use shape[0] to count all the condition in row 
+        #We use shape[0] to give you number of row if we use shape[1] it will give you number of column 
         total_male = compareAge[compareAge['Gender'] == 'Male'].shape[0]
         total_female = compareAge[compareAge['Gender'] == 'Female'].shape[0]
         male_percentage = (100 * total_male) / total_customer
@@ -121,10 +121,8 @@ def Bar_chart(self):
     plt.xlabel("Age")
     plt.ylabel("Quantity")
     plt.title("Quantity Bar Chart")
-
     #Set the bar chart to red color
     cursor = mplcursors.cursor(plt.bar(x, y, color='blue'), hover=False)
-
     #Customized text display when use hover on the bar chart  (sel: represent the event) Annotation is the small text bar
     cursor.connect("add", lambda sel: sel.annotation.set_text(f"{sel.target[1]}quantity"))
     #set text change the text in the box
