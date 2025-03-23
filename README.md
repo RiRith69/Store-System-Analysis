@@ -19,7 +19,7 @@ The Store Analysis System is a simple yet powerful tool designed to help store o
 4. Ensure `Data.csv` is placed in the project directory.
 5. Run the script:
    ```sh
-   python Project.py
+   python Store_Analysis_System.py
    ```
 6. Follow the menu options to analyze sales, view customer insights, and generate reports.
 
